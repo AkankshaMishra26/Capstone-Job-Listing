@@ -1,0 +1,85 @@
+.queryWidget {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff6f91;
+}
+
+.filterRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skillsSelector {
+  display: flex;
+  align-items: center;
+}
+
+.selectContainer {
+  margin-right: 10px;
+}
+
+.select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff6f91;
+}
+
+.chipsContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  background-color: #ff8fa3;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.chipClose {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.applyButton {
+  background-color: #ff6f91;
+  color: white;
+}
+
+.clearButton {
+  background-color: #ff8fa3;
+  color: white;
+}
+
+
+
+

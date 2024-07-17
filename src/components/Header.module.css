@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ff6f61;
+  border-bottom: 2px solid #ffb6c1;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.loginButton,
+.registerButton {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loginButton {
+  color: #ff6f61;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.loginButton:hover {
+  background-color: #ffb6c1;
+}
+
+.registerButton {
+  color: #fff;
+  background-color: #ff6f61;
+  border: 2px solid #fff;
+}
+
+.registerButton:hover {
+  background-color: #ff4b3a;
+}
+
+
